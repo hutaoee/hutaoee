@@ -1,0 +1,43 @@
+name: GitHub Metrics
+on:
+  schedule: [{cron: "0 */6 * * *"}]  # 每6小时自动更新
+  workflow_dispatch:                # 可手动触发
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          user: hutaoee
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Shanghai
+
+          # 📊 语言统计
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+
+          # 🔥 活跃度 Followup
+          plugin_followup: yes
+
+          # 🕘 编程活跃时间
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
+
+          # 🚀 访客统计
+          plugin_traffic: yes
+
+          # ⭐ Star 增长趋势
+          plugin_stargazers: yes
+
+          # 📅 连击日历
+          plugin_isocalendar: yes
+
+          # 📈 贡献折线图
+          plugin_lines: yes
