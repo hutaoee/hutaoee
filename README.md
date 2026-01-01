@@ -29,15 +29,6 @@
 
 ---
 
-### 📊 我的 GitHub 统计 (My GitHub Stats)
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hutaoee&layout=compact&hide_border=true&border_radius=10&bg_color=30,fcb590,e46454&title_color=fff&text_color=fff" alt="Hutao's Top Languages">
-<img src="https://github-readme-stats.vercel.app/api?username=hutaoee&show_icons=true&hide_border=true&border_radius=10&bg_color=30,fcb590,e46454&title_color=fff&text_color=fff&icon_color=fff" alt="Hutao's GitHub Stats">
-<img src="https://streak-stats.demolab.com?user=hutaoee&border_radius=10&hide_border=true&background=e46454&ring=fcb590&fire=fcb590&currStreakNum=fff&sideNums=fff&currStreakLabel=fff&sideLabels=fff&dates=fff" alt="Hutao's GitHub Streak" />
-
----
-
-
 ### 📈 我的活动图谱 (My Activity Graph)
 
 <div align="center">
@@ -46,12 +37,5 @@
 
 ---
 
-### 🏆 我的 GitHub 成就 (My GitHub Trophies)
-
-<div align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=hutaoee&theme=radical&no-frame=true&no-bg=true&margin-w=4&margin-h=4" alt="Hutao's GitHub Trophies" />
-</div>
-
----
 
 
